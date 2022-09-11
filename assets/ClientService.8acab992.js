@@ -1,0 +1,1 @@
+import{aC as o}from"./index.0c1b9320.js";async function s(n){var i,t;const e=(i=n.include)==null?void 0:i.join(","),c=(t=n.include_count)==null?void 0:t.join(",");return(await o.get("clients",{params:{...n,include:e,include_count:c}})).data}var l={list:s};export{l as C};

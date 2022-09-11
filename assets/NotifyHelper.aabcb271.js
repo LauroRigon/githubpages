@@ -1,0 +1,1 @@
+import{b7 as f}from"./index.0c1b9320.js";function s(t,i){o(t,i,"positive")}function r(t,i){o(t,i,"negative")}function o(t,i,n,e){f.create({message:t,caption:i,type:n,icon:e,position:"top-right",html:!0})}export{s as a,r as n};
